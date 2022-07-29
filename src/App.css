@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+.spoiler,
+.ranges_input,
+.password_confirm,
+.timer,
+.timer_control,
+.timer_container {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: rgb(241 243 244);
+  border-radius: 20px;
+  height: fit-content;
+  padding-bottom: 20px;
+}
+.title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #1b14ed85;
+}
+.header {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 10px;
+}
+.content {
+  width: 70%;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 8px;
+}
+.input_all {
+  width: 300px;
+  font-size: 14px;
+  padding: 6px 0 4px 10px;
+  border: 1px solid #cecece;
+  background: #f6f6f6;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.timer_button,
+.timer_control_button,
+.timer_container_button {
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4676d7;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.watch {
+  width: 400px;
+  height: 400px;
+  background: url(./img/ClockFace.png) center no-repeat;
+  border: 1px black solid;
+  border-radius: 50px;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(241 243 244);
+}
+
+.line {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 0px;
+}
+.hour-line {
+  z-index: 1;
+  transform: rotate(30deg);
+}
+.minute-line {
+  z-index: 2;
+}
+.second-line {
+  transform: rotate(120deg);
+  z-index: 3;
+}
